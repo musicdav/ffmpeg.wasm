@@ -162,7 +162,7 @@ jobs:
           EOF
 
           # Run the verification in Chrome
-          echo "Verifying browser environment..."
+          echo "Verifying browser environment.."
           npx mocha-headless-chrome \
             --args="$CHROME_FLAGS --enable-features=SharedArrayBuffer,CrossOriginIsolation" \
             -a no-sandbox \
